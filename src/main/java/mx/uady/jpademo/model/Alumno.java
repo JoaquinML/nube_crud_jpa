@@ -1,6 +1,5 @@
 package mx.uady.jpademo.model;
 
-import java.io.Serializable;
 import java.util.Set;
 
 import javax.persistence.Column;
@@ -17,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name = "alumnos")
-public class Alumno implements Serializable{
+public class Alumno{
 
     @Id
     private Integer id;
