@@ -3,8 +3,6 @@ package mx.uady.jpademo.service;
 import mx.uady.jpademo.exception.RecursoNoEncontradoException;
 import java.util.LinkedList;
 import java.util.List;
-import mx.uady.jpademo.model.Profesor;
-import mx.uady.jpademo.model.Alumno;
 import mx.uady.jpademo.exception.RecursoExistenteException;
 import mx.uady.jpademo.request.TutoriaRequest;
 import mx.uady.jpademo.model.Tutoria;
